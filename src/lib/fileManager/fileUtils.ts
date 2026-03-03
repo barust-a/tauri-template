@@ -1,6 +1,6 @@
 // File management utilities for audioBookApp
 
-import { SupportedFile, FileValidationResult } from '../../types/fileTypes';
+import { SupportedFile, FileValidationResult, createSupportedFile } from '../../types/fileTypes';
 
 export interface FileProcessingProgress {
   fileId: string;
